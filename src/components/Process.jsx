@@ -55,7 +55,7 @@ export default function Process() {
           <h2 className="text-5xl font-bold mt-4">
             My Design Process
           </h2>
-
+          
           <p className="text-slate-400 mt-5 max-w-3xl mx-auto text-lg leading-8">
             A structured approach to transforming complex enterprise
             requirements into intuitive and scalable digital products.

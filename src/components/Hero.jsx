@@ -1,11 +1,12 @@
 import { motion } from "framer-motion";
 import { ArrowRight, Download } from "lucide-react";
 
+
 export default function Hero() {
   return (
     <section
       id="services"
-      className="min-h-screen flex items-center pt-24"
+      className="min-h-screen flex items-center pt-20"
     >
       <div className="max-w-7xl mx-auto px-6 w-full">
 
@@ -23,12 +24,12 @@ export default function Hero() {
             Senior UX/UI Designer
           </h1>
 
-          <p className="mt-6 text-xl text-slate-300">
+          <p className="mt-6 text-xl  text-slate-300">
             Enterprise Applications • Dashboard UX • Manufacturing Systems • AR Experiences
           </p>
 
           <p className="mt-8 text-slate-400 text-lg max-w-4xl leading-8">
-            Senior UX/UI Designer with 8+ years of design experience and 4+ years specializing in Enterprise Applications, Manufacturing Systems, Factory TV Dashboards and AR Experiences. Passionate about transforming complex operational workflows into intuitive digital products.
+           Senior UX/UI Designer with 8+ years of design experience and 4+ years specializing in Enterprise Applications, Manufacturing Systems, Factory TV Dashboards and AR Experiences. Passionate about transforming complex operational workflows into intuitive digital products.
 
           </p>
 
@@ -48,7 +49,7 @@ export default function Hero() {
               ].map((client) => (
                 <span
                   key={client}
-                  className="px-4 py-2 rounded-full bg-white/5 border border-white/10"
+                  className="px-5 py-2 rounded-full bg-white/5 border border-white/10"
                 >
                   {client}
                 </span>

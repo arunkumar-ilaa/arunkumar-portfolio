@@ -9,17 +9,14 @@ export default function Contact() {
       id="contact"
       className="py-32"
     >
-      <div className="max-w-6xl mx-auto px-6">
+      <div className="max-w-7xl mx-auto px-6">
 
         <div
           className="
           relative
           overflow-hidden
           rounded-[40px]
-          border
-          border-white/10
-          bg-white/5
-          backdrop-blur-xl
+          
           p-12
           lg:p-16
           "
@@ -33,15 +30,13 @@ export default function Contact() {
               CONTACT
             </p>
 
-            <h2 className="text-5xl md:text-6xl font-bold mt-4 leading-tight">
-              Let's Build Better
-              <br />
-              Digital Experiences
+            <h2 className="text-4xl md:text-5xl font-bold mt-4 leading-tight">
+              Available for
+Senior UX/UI Design Opportunities
             </h2>
 
-            <p className="text-slate-400 text-lg mt-6 max-w-3xl leading-8">
-              I'm open to UX/UI Design, Product Design, Enterprise SaaS,
-              Dashboard UX and Digital Product opportunities.
+            <p className="text-slate-400 text-lg mt-6 max-w-4xl leading-8">
+              Open to Senior UX/UI Design, Product Design and Enterprise Platform opportunities. Passionate about creating intuitive experiences for manufacturing systems, operational dashboards and digital products.
             </p>
 
             <div className="grid md:grid-cols-3 gap-6 mt-12">
@@ -49,10 +44,15 @@ export default function Contact() {
               <div
                 className="
                 bg-white/5
-                border
-                border-white/10
-                rounded-2xl
-                p-6
+border
+border-white/10
+rounded-2xl
+p-6
+transition-all
+duration-300
+hover:-translate-y-1
+hover:border-violet-500/40
+hover:shadow-[0_0_30px_rgba(139,92,246,0.15)]
                 "
               >
                 <Mail className="text-violet-400 mb-4" />
@@ -68,11 +68,16 @@ export default function Contact() {
 
               <div
                 className="
-                bg-white/5
+               bg-white/5
                 border
-                border-white/10
-                rounded-2xl
-                p-6
+              border-white/10
+              rounded-2xl
+              p-6
+              transition-all
+              duration-300
+              hover:-translate-y-1
+              hover:border-violet-500/40
+              hover:shadow-[0_0_30px_rgba(139,92,246,0.15)]
                 "
               >
                 <Phone className="text-violet-400 mb-4" />
@@ -89,10 +94,15 @@ export default function Contact() {
               <div
                 className="
                 bg-white/5
-                border
-                border-white/10
-                rounded-2xl
-                p-6
+border
+border-white/10
+rounded-2xl
+p-6
+transition-all
+duration-300
+hover:-translate-y-1
+hover:border-violet-500/40
+hover:shadow-[0_0_30px_rgba(139,92,246,0.15)]
                 "
               >
                 <MapPin className="text-violet-400 mb-4" />

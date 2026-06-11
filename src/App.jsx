@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import Services from "./components/Services";
 import Projects from "./components/Projects";
 import Experience from "./components/Experience";
+import Tools from "./components/Tools";
 import Process from "./components/Process";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
@@ -10,7 +11,7 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <main className="relative min-h-screen text-white overflow-x-hidden">
-      
+
 
       {/* Global Background Effects */}
 
@@ -34,6 +35,7 @@ function App() {
       <Services />
       <Projects />
       <Experience />
+      <Tools />
       <Process />
       <Contact />
       <Footer />
