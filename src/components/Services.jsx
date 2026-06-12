@@ -11,33 +11,38 @@ import {
 const services = [
   {
     icon: Factory,
-    title: "Manufacturing Platforms",
-    desc: "Designing production planning, execution, monitoring, and traceability experiences for enterprise manufacturing environments.",
+    title: "Enterprise Platforms",
+    desc: "Designing enterprise applications, manufacturing platforms, and operational systems that simplify complex business workflows.",
   },
+
   {
     icon: LayoutDashboard,
     title: "Dashboard UX",
-    desc: "Transforming operational data into actionable insights through intuitive and scalable dashboard experiences.",
+    desc: "Transforming operational and business data into actionable insights through scalable dashboard experiences and data visualization.",
   },
+
   {
     icon: Monitor,
-    title: "Factory TV Dashboards",
-    desc: "Large-screen production monitoring interfaces optimized for visibility, readability, and real-time decision making.",
+    title: "Industrial IoT & Monitoring",
+    desc: "Designing monitoring platforms, condition-based monitoring systems, and real-time operational visibility solutions.",
   },
-  {
-    icon: ScanLine,
-    title: "Industrial AR Experiences",
-    desc: "Augmented reality interfaces supporting equipment monitoring, operational visibility, and workforce efficiency.",
-  },
+
   {
     icon: Smartphone,
-    title: "Enterprise Mobile Apps",
-    desc: "Mobile-first operational experiences supporting field teams, supervisors, and manufacturing workflows.",
+    title: "Mobile Applications",
+    desc: "Creating intuitive mobile experiences for enterprise operations, wellness products, and customer-facing applications.",
   },
+
+  {
+    icon: ScanLine,
+    title: "Landing Pages & Marketing Sites",
+    desc: "Designing high-converting landing pages, campaign experiences, and responsive websites focused on engagement and business goals.",
+  },
+
   {
     icon: Blocks,
     title: "Design Systems",
-    desc: "Building reusable component libraries and design standards that improve consistency and accelerate product delivery.",
+    desc: "Building reusable component libraries, design standards, and scalable systems that accelerate product development.",
   },
 ];
 
@@ -56,11 +61,11 @@ export default function Services() {
             </h2>
 
             <p className="text-slate-400 max-w-3xl mt-5 text-lg leading-8">
-              Specialized in designing enterprise software, manufacturing
-              platforms, operational dashboards, mobile applications, and
-              scalable design systems that improve productivity, visibility,
-              and decision-making across industrial environments.
-            </p>
+            Specialized in designing enterprise software, industrial platforms,
+            operational dashboards, mobile applications, and marketing experiences.
+            Focused on creating scalable digital products that improve productivity,
+            visibility, and decision-making across business and manufacturing environments.
+          </p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">

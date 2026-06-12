@@ -4,29 +4,29 @@ export default function Tools() {
   const tools = [
     {
       name: "Figma",
-      desc: "Primary Design Tool",
+      desc: "UI Design & Prototyping",
       icon: "/figma.svg",
     },
     {
       name: "Photoshop",
-      desc: "Visual Asset Design",
+      desc: "Visual Design & Editing",
       icon: "/photoshop.svg",
     },
     {
       name: "ChatGPT",
-      desc: "Research & Content",
+  desc: "Research & Ideation",
       icon: "/chat-gpt.svg",
     },
     {
       name: "Claude",
-      desc: "UX Thinking Partner",
+   desc: "UX Strategy & Analysis",
       icon: "/claude.svg",
     },
-    {
-      name: "Lovable",
-      desc: "Design Exploration",
-      icon: "/lovable.svg",
-    },
+   {
+  name: "Miro",
+  desc: "Workshops & User Flows",
+  icon: "/miro.svg",
+  }
   ];
 
   return (
@@ -39,11 +39,11 @@ export default function Tools() {
         </p>
 
         <h2 className="text-5xl font-bold mt-3">
-          Design Stack
+          Design & AI Toolkit
         </h2>
 
         <p className="text-slate-400 mt-5 max-w-3xl text-lg">
-          Tools I use to design, prototype and accelerate product delivery.
+          Tools and AI-powered workflows I use to design, prototype, collaborate, and accelerate product delivery.
         </p>
 
         <div className="grid md:grid-cols-3 lg:grid-cols-5 gap-6 mt-14">
@@ -114,9 +114,9 @@ export default function Tools() {
 
       <span>{"{ CSS }"}</span>
 
-      <span>⚛ React</span>
+      <span>⚛ React.js</span>
 
-      <span>▲ Tailwind CSS</span>
+      <span>▲ Tailwind.css</span>
 
     </div>
 

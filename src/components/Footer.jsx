@@ -47,7 +47,7 @@ return ( <footer className="border-t border-white/10 py-12">
       <div className="w-full h-px bg-white/10 my-8" />
 
       <p className="text-slate-500 text-sm">
-        © 2026 Arunkumar Vadivel. All rights reserved.
+        © {new Date().getFullYear()} Arunkumar Vadivel. Designed & Developed with React.
       </p>
 
     </div>

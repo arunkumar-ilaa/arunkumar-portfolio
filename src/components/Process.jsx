@@ -10,33 +10,38 @@ import SectionWrapper from "./SectionWrapper";
 const steps = [
   {
     icon: Search,
-    title: "Research",
-    desc: "Understand business goals, user needs and operational challenges through stakeholder discussions and requirement analysis.",
+    title: "Discovery",
+    desc: "Understand business objectives, operational challenges, stakeholder requirements, and user needs through workshops and requirement analysis.",
   },
+
   {
     icon: Workflow,
-    title: "Workflow Analysis",
-    desc: "Map user journeys, workflows and information architecture to simplify complex business processes.",
+    title: "Workflow Mapping",
+    desc: "Define user journeys, process flows, information architecture, and system interactions to simplify complex enterprise workflows.",
   },
+
   {
     icon: PencilRuler,
     title: "Wireframing",
-    desc: "Create low-fidelity wireframes and interaction flows to validate concepts before visual design.",
+    desc: "Create low-fidelity wireframes and screen structures to validate layouts, navigation patterns, and user interactions.",
   },
+
   {
     icon: MousePointerClick,
     title: "Prototyping",
-    desc: "Build interactive prototypes to communicate ideas and validate user interactions.",
+    desc: "Build interactive prototypes to validate concepts, gather stakeholder feedback, and refine user experiences before development.",
   },
+
   {
     icon: Palette,
     title: "UI Design",
-    desc: "Design high-fidelity interfaces, dashboards and scalable design systems using Figma.",
+    desc: "Design scalable interfaces, dashboards, and design systems with a focus on usability, consistency, and operational efficiency.",
   },
+
   {
     icon: Rocket,
-    title: "Developer Handoff",
-    desc: "Collaborate with developers, review implementations and ensure design quality during delivery.",
+    title: "Design Delivery",
+    desc: "Collaborate with developers, support implementation, review delivered screens, and ensure design quality throughout the release cycle.",
   },
 ];
 
@@ -57,8 +62,7 @@ export default function Process() {
           </h2>
           
           <p className="text-slate-400 mt-5 max-w-3xl mx-auto text-lg leading-8">
-            A structured approach to transforming complex enterprise
-            requirements into intuitive and scalable digital products.
+           A collaborative design process focused on transforming complex business requirements into intuitive, scalable, and user-centered digital products.
           </p>
 
         </div>
@@ -80,6 +84,7 @@ export default function Process() {
                 backdrop-blur-xl
                 rounded-3xl
                 p-8
+                min-h-[260px]
                 hover:border-violet-500/40
                 hover:-translate-y-1
                  hover:shadow-[0_0_30px_rgba(139,92,246,0.15)]

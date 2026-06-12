@@ -38,12 +38,12 @@ export default function Hero() {
           </p>
 
           <p className="mt-8 text-slate-400 text-lg max-w-4xl leading-8">
-            UX/UI Designer with 4+ years of experience designing Enterprise
-            SaaS, Manufacturing Execution Systems (MES), Production Monitoring
-            Platforms, Factory TV Dashboards, and Industrial Applications.
-            I collaborate with Product Managers, Business Analysts, and
-            Engineering teams to transform complex manufacturing workflows
-            into intuitive and scalable digital experiences.
+           UX/UI Designer with 8+ years of design experience and 4+ years specializing in Enterprise SaaS, 
+           Manufacturing Execution Systems (MES), Industrial IoT Platforms, and Factory Operations Dashboards.
+
+          Experienced in designing enterprise applications, mobile products, and marketing experiences, 
+          with a strong focus on simplifying complex workflows into intuitive, scalable, and data-driven digital solutions.
+
           </p>
 
           {/* Stats Section */}
@@ -78,10 +78,12 @@ export default function Hero() {
             <div className="flex flex-wrap gap-3">
               {[
                 "NBC",
-                "Blue Star",
+                
                 "Welspun",
+                "Blue Star",
                 "Byte Factory",
-                "Miami University",
+                "BFAL"
+                
               ].map((client) => (
                 <span
                   key={client}
