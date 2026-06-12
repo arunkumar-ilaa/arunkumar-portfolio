@@ -8,16 +8,16 @@ period: "Dec 2022 - Present",
 role: "Senior UX/UI Designer",
 company: "Maxbyte Technologies",
 description:
-"Designing Enterprise Applications, Manufacturing Platforms, Factory TV Dashboards and AR Experiences for global industrial organizations. Collaborating with cross-functional teams to transform complex operational workflows into intuitive digital products.",
+"Leading UX/UI design for Enterprise SaaS platforms, Manufacturing Execution Systems (MES), Factory TV Dashboards, and Industrial Applications. Partnering with Product Managers, Business Analysts, and Engineering teams to simplify complex manufacturing workflows and deliver scalable digital solutions for organizations including NBC, Blue Star, Welspun, and GE Aerospace.",
 highlights: [
+"Enterprise SaaS",
+"MES Platforms",
 "NBC",
 "Blue Star",
 "Welspun",
-"GE Aerospace",
-"Factory TV Dashboards",
-"AR Experiences",
+"Miami University",
+"Factory TV",
 "Design Systems",
-"AI-Assisted Design Workflows",
 ],
 },
 
@@ -62,10 +62,11 @@ return ( <SectionWrapper> <section id="experience" className="py-32"> <div class
           Professional Journey
         </h2>
         <div className="mt-4 w-16 h-[2px] bg-violet-500 rounded-full" />
-        <p className="text-slate-400 mt-5 max-w-3xl text-lg">
-          Building digital experiences across enterprise software,
-          manufacturing platforms, dashboards and e-commerce solutions.
-        </p>
+        <p className="text-slate-400 mt-5 max-w-3xl text-lg leading-8">
+  Over 8 years of design experience spanning enterprise software,
+  manufacturing platforms, operational dashboards, industrial applications,
+  and digital commerce solutions.
+</p>
       </div>
 
       <div className="relative">
@@ -135,7 +136,7 @@ return ( <SectionWrapper> <section id="experience" className="py-32"> <div class
 
                 </div>
 
-                <h3 className="text-2xl font-semibold">
+                <h3 className="text-2xl font-bold">
                   {exp.role}
                 </h3>
 

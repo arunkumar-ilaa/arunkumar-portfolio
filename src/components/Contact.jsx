@@ -30,14 +30,13 @@ export default function Contact() {
               CONTACT
             </p>
 
-            <h2 className="text-4xl md:text-5xl font-bold mt-4 leading-tight">
-              Available for
-Senior UX/UI Design Opportunities
-            </h2>
+          <h2 className="text-4xl md:text-5xl font-bold mt-4 leading-tight">
+  Let's Connect
+</h2>
 
             <p className="text-slate-400 text-lg mt-6 max-w-4xl leading-8">
-              Open to Senior UX/UI Design, Product Design and Enterprise Platform opportunities. Passionate about creating intuitive experiences for manufacturing systems, operational dashboards and digital products.
-            </p>
+  Whether you're exploring enterprise software, manufacturing platforms, operational dashboards, or product design systems, I'd be happy to connect and exchange ideas.
+</p>
 
             <div className="grid md:grid-cols-3 gap-6 mt-12">
 
@@ -46,7 +45,7 @@ Senior UX/UI Design Opportunities
                 bg-white/5
 border
 border-white/10
-rounded-2xl
+rounded-3xl
 p-6
 transition-all
 duration-300
@@ -71,7 +70,7 @@ hover:shadow-[0_0_30px_rgba(139,92,246,0.15)]
                bg-white/5
                 border
               border-white/10
-              rounded-2xl
+              rounded-3xl
               p-6
               transition-all
               duration-300
@@ -96,7 +95,7 @@ hover:shadow-[0_0_30px_rgba(139,92,246,0.15)]
                 bg-white/5
 border
 border-white/10
-rounded-2xl
+rounded-3xl
 p-6
 transition-all
 duration-300
@@ -112,7 +111,7 @@ hover:shadow-[0_0_30px_rgba(139,92,246,0.15)]
                 </p>
 
                 <p className="mt-2 font-medium">
-                  Tiruppur, Tamil Nadu
+                  Coimbatore, Tamil Nadu
                 </p>
               </div>
 

@@ -129,7 +129,7 @@ export default function Navbar() {
               <FaLinkedinIn size={14} />
 
               <span className="text-sm font-medium">
-                Let's Connect
+                LinkedIn
               </span>
             </a>
 

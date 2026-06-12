@@ -1,38 +1,75 @@
 import { motion } from "framer-motion";
 import { ArrowRight, Download } from "lucide-react";
 
-
 export default function Hero() {
   return (
     <section
       id="services"
-      className="min-h-screen flex items-center pt-20"
+      className="min-h-screen flex items-center pt-24"
     >
       <div className="max-w-7xl mx-auto px-6 w-full">
-
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-
           <p className="text-violet-400 uppercase tracking-[0.3em] text-2xl">
             ARUNKUMAR VADIVEL
           </p>
 
-          <h1 className="mt-4 text-5xl md:text-7xl font-bold leading-tight">
-            Senior UX/UI Designer
+          {/* Current Company Badge */}
+          <div className="mt-6 inline-flex items-center gap-2 px-4 py-2 rounded-full bg-violet-500/10 border border-violet-500/20">
+            <span className="w-2 h-2 rounded-full bg-green-500"></span>
+            <span className="text-sm text-slate-300">
+              UX Designer @ Maxbyte Technologies
+            </span>
+          </div>
+
+          <h1 className="mt-6 text-3xl md:text-6xl font-bold leading-tight">
+            Designing Enterprise Products <br />
+            for Manufacturing & Industrial Operations
+           
+           
+           
           </h1>
 
-          <p className="mt-6 text-xl  text-slate-300">
-            Enterprise Applications • Dashboard UX • Manufacturing Systems • AR Experiences
+          <p className="mt-6 text-xl text-violet-300">
+            Senior UX/UI Designer • Enterprise Product Design
           </p>
 
           <p className="mt-8 text-slate-400 text-lg max-w-4xl leading-8">
-           Senior UX/UI Designer with 8+ years of design experience and 4+ years specializing in Enterprise Applications, Manufacturing Systems, Factory TV Dashboards and AR Experiences. Passionate about transforming complex operational workflows into intuitive digital products.
-
+            UX/UI Designer with 4+ years of experience designing Enterprise
+            SaaS, Manufacturing Execution Systems (MES), Production Monitoring
+            Platforms, Factory TV Dashboards, and Industrial Applications.
+            I collaborate with Product Managers, Business Analysts, and
+            Engineering teams to transform complex manufacturing workflows
+            into intuitive and scalable digital experiences.
           </p>
 
+          {/* Stats Section */}
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-10 max-w-4xl">
+            <div className="p-4 rounded-xl bg-white/5 border border-white/10">
+              <p className="text-2xl font-bold text-violet-400">4+</p>
+              <p className="text-sm text-slate-400">Years UX/UI</p>
+            </div>
+
+            <div className="p-4 rounded-xl bg-white/5 border border-white/10">
+              <p className="text-2xl font-bold text-violet-400">8+</p>
+              <p className="text-sm text-slate-400">Years Design</p>
+            </div>
+
+            <div className="p-4 rounded-xl bg-white/5 border border-white/10">
+              <p className="text-2xl font-bold text-violet-400">150+</p>
+              <p className="text-sm text-slate-400">Enterprise Screens</p>
+            </div>
+
+            <div className="p-4 rounded-xl bg-white/5 border border-white/10">
+              <p className="text-2xl font-bold text-violet-400">6+</p>
+              <p className="text-sm text-slate-400">Enterprise Clients</p>
+            </div>
+          </div>
+
+          {/* Trusted By */}
           <div className="mt-10">
             <p className="text-slate-500 text-sm mb-4">
               TRUSTED BY
@@ -43,9 +80,8 @@ export default function Hero() {
                 "NBC",
                 "Blue Star",
                 "Welspun",
-                "GE Aerospace",
-                "BFAL",
-                
+                "Byte Factory",
+                "Miami University",
               ].map((client) => (
                 <span
                   key={client}
@@ -57,8 +93,8 @@ export default function Hero() {
             </div>
           </div>
 
+          {/* Buttons */}
           <div className="flex gap-4 mt-12 flex-wrap">
-
             <a
               href="#projects"
               className="flex items-center gap-2 px-6 py-3 rounded-xl bg-violet-600 hover:bg-violet-700 transition"
@@ -76,13 +112,8 @@ export default function Hero() {
               Download Resume
               <Download size={18} />
             </a>
-
           </div>
-
-          
-
         </motion.div>
-
       </div>
     </section>
   );
