@@ -55,17 +55,59 @@ export default function Navbar() {
         duration-300
         ${
           scrolled
-            ? "bg-slate-950/70 backdrop-blur-xl border-b border-white/10"
-            : "bg-transparent"
+? "bg-transparent"
+: "bg-transparent"
         }
       `}
     >
-      <div className="max-w-7xl mx-auto px-6">
+      <div className="max-w-7xl mx-auto px-4">
 
-        <div className="flex justify-end items-center h-20">
+      <div className="flex items-center h-20">
 
           {/* Desktop Menu */}
-          <div className="hidden md:flex items-center gap-8">
+         <div
+            className={`
+              hidden
+              md:flex
+              ml-auto
+              items-center
+              justify-between
+              w-full
+              px-3
+              py-3
+              transition-all
+              duration-300
+
+              ${
+                scrolled
+                  ? `
+                  rounded-full
+                  bg-slate-950/80
+                  backdrop-blur-xl
+                  border
+                  border-white/10
+                  mt-2
+                  
+                  shadow-[0_10px_40px_rgba(0,0,0,0.25)]
+                  `
+                  : `
+                  bg-transparent
+                  border border-transparent
+                  `
+              }
+            `}
+          >
+
+  {scrolled && (
+  <div className="hidden md:block flex-shrink-0">
+    <span className="text-violet-400 uppercase ml-5 tracking-[0.3em] text">
+      ARUNKUMAR VADIVEL
+    </span>
+  </div>
+)}
+              
+
+          <div className="flex items-center gap-8 ml-auto">
 
             {sections.map((item) => (
               <a
@@ -87,11 +129,9 @@ export default function Navbar() {
                 {activeSection === item.id && (
                   <span
                     className="
-                      absolute
-                      left-0
-                      -bottom-2
+                      absolute left-0 
                       w-full
-                      h-[2px]
+                      
                       bg-violet-400
                       rounded-full
                     "
@@ -132,19 +172,21 @@ export default function Navbar() {
                 LinkedIn
               </span>
             </a>
-
+          </div>
           </div>
 
           {/* Mobile Toggle */}
 
           <button
             onClick={() => setMobileOpen(!mobileOpen)}
-            className="md:hidden text-white"
+            className="md:hidden text-white ml-auto"
           >
             {mobileOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
 
         </div>
+
+
 
         {/* Mobile Menu */}
 
