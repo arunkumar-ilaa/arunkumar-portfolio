@@ -54,6 +54,7 @@ body::after {
 html {
   scrollbar-width: thin;
   scrollbar-color: #8b5cf6 #020617;
+  font-family: "Poppins", sans-serif;
   
 }
 

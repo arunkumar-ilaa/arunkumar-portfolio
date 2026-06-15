@@ -109,7 +109,7 @@ export default function Services() {
                     {service.title}
                   </h3>
 
-                  <p className="text-slate-400 leading-7">
+                  <p className="text-slate-400 text leading-7">
                     {service.desc}
                   </p>
                 </div>

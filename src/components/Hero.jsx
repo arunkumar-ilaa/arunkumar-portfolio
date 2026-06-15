@@ -26,11 +26,8 @@ export default function Hero() {
           </div>
 
           <h1 className="mt-6 text-3xl md:text-6xl font-bold leading-tight">
-            Designing Enterprise Products <br />
+            Designing Enterprise Products 
             for Manufacturing & Industrial Operations
-           
-           
-           
           </h1>
 
           <p className="mt-6 text-xl text-violet-300">

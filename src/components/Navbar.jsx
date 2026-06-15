@@ -73,8 +73,8 @@ export default function Navbar() {
               items-center
               justify-between
               w-full
-              px-3
-              py-3
+              px-2
+              py-2
               transition-all
               duration-300
 

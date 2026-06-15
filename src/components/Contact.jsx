@@ -26,7 +26,7 @@ export default function Contact() {
 
           <div className="relative z-10">
 
-            <p className="text-violet-400 uppercase tracking-[0.3em] text-sm">
+            <p className="text-violet-400  uppercase tracking-[0.3em] text-sm">
               CONTACT
             </p>
 
