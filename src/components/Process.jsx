@@ -10,7 +10,7 @@ import SectionWrapper from "./SectionWrapper";
 const steps = [
   {
     icon: Search,
-    title: "Discovery",
+    title: "Requirement Analysis",
     desc: "Understand business objectives, operational challenges, stakeholder requirements, and user needs through workshops and requirement analysis.",
   },
 

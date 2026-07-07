@@ -8,17 +8,17 @@ const projects = [
     title: "Industrial IoT Condition Monitoring Platform",
     category: "Industrial IoT Platform",
     description:
-      "Designed a Condition Based Monitoring (CBM) platform for railway locomotives, enabling real-time monitoring of vibration data, GPS tracking, alarms, analytics, and predictive maintenance workflows.",
+      "Designed an Enterprise Condition-Based Monitoring (CBM) platform for railway locomotives, enabling real-time equipment monitoring, vibration analytics, GPS tracking, alarm management, predictive maintenance, and operational visibility.",
     tags: [
       "Industrial IoT",
       "Condition Monitoring",
       "GPS Tracking",
       "Predictive Maintenance",
-      "Dashboard UX",
+      "Enterprise SaaS",
     ],
 
-    domain: "Industrial IoT",
-    contribution:"Information Architecture • Dashboard UX • Data Visualization"
+    domain: "Manufacturing",
+    contribution:"Requirement Analysis • Wireframing • Dashboard UI • Prototype"
   },
 
   {
@@ -33,9 +33,10 @@ const projects = [
       "Traceability",
       "OEE Dashboard",
       "Manufacturing",
+      "Web Application",
     ],
     domain: "Enterprise Manufacturing",
-    contribution:"User Flows • Information Architecture • Dashboard Design"
+    contribution:"Requirement Analysis • Wireframing • Dashboard UI • Prototype"
   },
 
   {
@@ -151,7 +152,7 @@ export default function Projects() {
                   text-violet-300
                   "
                 >
-                  Featured Case Study
+                  Enterprise Case Study
                 </span>
 
                 <span className="text-violet-400 text-sm">
@@ -229,7 +230,7 @@ export default function Projects() {
                       transition
                       "
                     >
-                      View Full Case Study
+                     View Case Study →
                     </a>
                   )}
                   {index === 1 && (
@@ -350,7 +351,7 @@ export default function Projects() {
           </p>
 
           <h3 className="text-4xl font-bold mt-3">
-            More Enterprise & Mobile Experiences
+           Additional Case Studies
           </h3>
 
           <p className="text-slate-400 mt-4 max-w-3xl">

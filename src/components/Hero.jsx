@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ArrowRight, Download } from "lucide-react";
+import { ArrowRight, Download, MapPin } from "lucide-react";
 
 export default function Hero() {
   return (
@@ -14,70 +14,80 @@ export default function Hero() {
           transition={{ duration: 0.8 }}
         >
           <p className="text-violet-400 uppercase tracking-[0.3em] text-2xl">
-            ARUNKUMAR VADIVEL
+            ARUNKUMAR V
           </p>
+<div className="mt-4 flex flex-wrap items-center gap-4 text-sm text-slate-400">
+  <div className="flex items-center gap-2">
+    <MapPin size={16} className="text-violet-400" />
+    <span>Coimbatore, Tamil Nadu, India</span>
+  </div>
+
+  <div className="h-4 w-px bg-white/10" />
+
+  <span className="text-violet-300">
+    Open to Opportunities
+  </span>
+</div>
 
           {/* Current Company Badge */}
           <div className="mt-6 inline-flex items-center gap-2 px-4 py-2 rounded-full bg-violet-500/10 border border-violet-500/20">
             <span className="w-2 h-2 rounded-full bg-green-500"></span>
             <span className="text-sm text-slate-300">
-              UX Designer @ Maxbyte Technologies
+              Currently working as UX Designer at Maxbyte Technologies
             </span>
           </div>
 
-          <h1 className="mt-6 text-3xl md:text-6xl font-bold leading-tight">
-            Designing Enterprise Products 
-            for Manufacturing & Industrial Operations
+          <h1 className="mt-6 text-4xl md:text-7xl font-bold leading-tight">
+            Designing Enterprise SaaS Experiences That Simplify Complex Business Workflows.
+            
           </h1>
 
           <p className="mt-6 text-xl text-violet-300">
-            Senior UX/UI Designer • Enterprise Product Design
+            Enterprise SaaS • Web Applications • Mobile Applications • Operational Dashboards
           </p>
 
           <p className="mt-8 text-slate-400 text-lg max-w-4xl leading-8">
-           UX/UI Designer with 8+ years of design experience and 4+ years specializing in Enterprise SaaS, 
-           Manufacturing Execution Systems (MES), Industrial IoT Platforms, and Factory Operations Dashboards.
-
-          Experienced in designing enterprise applications, mobile products, and marketing experiences, 
-          with a strong focus on simplifying complex workflows into intuitive, scalable, and data-driven digital solutions.
+          UX/UI Designer with 3.5+ years of experience designing Enterprise SaaS products, Web Applications, Mobile Applications, and Operational Dashboards. Experienced in workflow analysis, wireframing, interactive prototyping, high-fidelity UI design, Design Systems, and developer collaboration.
 
           </p>
 
           {/* Stats Section */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-10 max-w-4xl">
             <div className="p-4 rounded-xl bg-white/5 border border-white/10">
-              <p className="text-2xl font-bold text-violet-400">4+</p>
-              <p className="text-sm text-slate-400">Years UX/UI</p>
+              <p className="text-2xl font-bold text-violet-400">3.5+</p>
+              <p className="text-sm text-slate-400">Relevant UX/UI Experience</p>
             </div>
 
             <div className="p-4 rounded-xl bg-white/5 border border-white/10">
-              <p className="text-2xl font-bold text-violet-400">8+</p>
-              <p className="text-sm text-slate-400">Years Design</p>
-            </div>
-
-            <div className="p-4 rounded-xl bg-white/5 border border-white/10">
-              <p className="text-2xl font-bold text-violet-400">150+</p>
-              <p className="text-sm text-slate-400">Enterprise Screens</p>
+              <p className="text-2xl font-bold text-violet-400">200+</p>
+              <p className="text-sm text-slate-400">UI Screens Delivered</p>
             </div>
 
             <div className="p-4 rounded-xl bg-white/5 border border-white/10">
               <p className="text-2xl font-bold text-violet-400">6+</p>
               <p className="text-sm text-slate-400">Enterprise Clients</p>
             </div>
-          </div>
 
+            <div className="p-4 rounded-xl bg-white/5 border border-white/10">
+              <p className="text-2xl font-bold text-violet-400">Manufacturing</p>
+              <p className="text-sm text-slate-400">Domain Expertise</p>
+            </div>
+          </div>
+        <p className="mt-8 text-slate-400 text-lg max-w-4xl leading-8">
+          Specialized in Enterprise Manufacturing Platforms, Operational Dashboards, Factory TV Interfaces, and Industrial SaaS solutions.
+        </p>
           {/* Trusted By */}
-          <div className="mt-10">
+          <div className="mt-8">
             <p className="text-slate-500 text-sm mb-4">
-              TRUSTED BY
+              ENTERPRISE CLIENTS
             </p>
 
             <div className="flex flex-wrap gap-3">
               {[
                 "NBC",
-                
                 "Welspun",
                 "Blue Star",
+                "Axium",
                 "Byte Factory",
                 "BFAL"
                 
@@ -98,7 +108,7 @@ export default function Hero() {
               href="#projects"
               className="flex items-center gap-2 px-6 py-3 rounded-xl bg-violet-600 hover:bg-violet-700 transition"
             >
-              View Projects
+              Explore Case Studies →
               <ArrowRight size={18} />
             </a>
 
@@ -108,7 +118,7 @@ export default function Hero() {
               rel="noreferrer"
               className="flex items-center gap-2 px-6 py-3 rounded-xl border border-white/10 bg-white/5 hover:bg-white/10 transition"
             >
-              Download Resume
+              Download CV
               <Download size={18} />
             </a>
           </div>

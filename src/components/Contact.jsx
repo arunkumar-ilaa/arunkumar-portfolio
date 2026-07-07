@@ -35,7 +35,7 @@ export default function Contact() {
 </h2>
 
             <p className="text-slate-400 text-lg mt-6 max-w-4xl leading-8">
-  Whether you're exploring enterprise software, manufacturing platforms, operational dashboards, or product design systems, I'd be happy to connect and exchange ideas.
+  Open to UX/UI Designer opportunities across Enterprise SaaS, Web Applications, Mobile Applications, and Dashboard Design.
 </p>
 
             <div className="grid md:grid-cols-3 gap-6 mt-12">

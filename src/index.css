@@ -54,10 +54,23 @@ body::after {
 html {
   scrollbar-width: thin;
   scrollbar-color: #8b5cf6 #020617;
-  font-family: "Poppins", sans-serif;
+  font-family: "Inter", sans-serif;
   
 }
 
 .caveat {
   font-family: "Caveat", cursive;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  
+}
+p {
+  font-weight: 300;
 }

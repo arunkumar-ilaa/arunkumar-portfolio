@@ -86,9 +86,9 @@ function App() {
       <Hero />
       <Services />
       <Projects />
+      <Process />
       <Experience />
       <Tools />
-      <Process />
       <Contact />
       <Footer />
 

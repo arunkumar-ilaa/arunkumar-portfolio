@@ -12,7 +12,7 @@ return ( <footer className="border-t border-white/10 py-12">
       </h3>
 
       <p className="text-slate-400 mt-2 tracking-[0.5px]">
-        Senior UX/UI Designer • Enterprise Applications • Product Design
+       UX/UI Designer • Enterprise SaaS • Web Applications • Dashboard Design
       </p>
 
       <div className="flex items-center gap-8 mt-6">

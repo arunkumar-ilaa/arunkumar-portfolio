@@ -11,38 +11,40 @@ import {
 const services = [
   {
     icon: Factory,
-    title: "Enterprise Platforms",
-    desc: "Designing enterprise applications, manufacturing platforms, and operational systems that simplify complex business workflows.",
+    title: "Enterprise Applications",
+    desc: "Designing scalable Enterprise SaaS applications and business platforms that simplify complex workflows and improve operational efficiency.",
   },
 
   {
     icon: LayoutDashboard,
-    title: "Dashboard UX",
-    desc: "Transforming operational and business data into actionable insights through scalable dashboard experiences and data visualization.",
+    title: "Dashboard Design",
+    desc: "Designing KPI dashboards and operational interfaces that transform complex data into meaningful insights for better decision-making.",
   },
 
   {
     icon: Monitor,
-    title: "Industrial IoT & Monitoring",
-    desc: "Designing monitoring platforms, condition-based monitoring systems, and real-time operational visibility solutions.",
+    title: "Industrial SaaS & IIoT",
+    desc: "Creating industrial monitoring solutions, Condition-Based Monitoring (CBM) platforms, and operational interfaces for manufacturing environments.",
+  },
+
+    {
+    icon: ScanLine,
+    title: "Web Applications",
+    desc: "Designing responsive business applications, portals, and customer-facing web experiences optimized across devices.",
   },
 
   {
     icon: Smartphone,
     title: "Mobile Applications",
-    desc: "Creating intuitive mobile experiences for enterprise operations, wellness products, and customer-facing applications.",
+    desc: "Designing intuitive mobile applications for enterprise users, field operations, and customer-focused digital experiences.",
   },
 
-  {
-    icon: ScanLine,
-    title: "Landing Pages & Marketing Sites",
-    desc: "Designing high-converting landing pages, campaign experiences, and responsive websites focused on engagement and business goals.",
-  },
+
 
   {
     icon: Blocks,
     title: "Design Systems",
-    desc: "Building reusable component libraries, design standards, and scalable systems that accelerate product development.",
+    desc: "Building reusable UI components, design systems, and scalable standards to ensure consistency across enterprise products.",
   },
 ];
 
@@ -53,18 +55,18 @@ export default function Services() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="mb-16">
             <p className="text-violet-400 uppercase tracking-widest text-sm">
-              SPECIALIZATION
+              CORE EXPERTISE
             </p>
 
             <h2 className="text-5xl font-bold mt-3">
-              Expertise Areas
+              Core Expertise
             </h2>
 
             <p className="text-slate-400 max-w-3xl mt-5 text-lg leading-8">
-            Specialized in designing enterprise software, industrial platforms,
-            operational dashboards, mobile applications, and marketing experiences.
-            Focused on creating scalable digital products that improve productivity,
-            visibility, and decision-making across business and manufacturing environments.
+            I design user-centered digital experiences across Enterprise SaaS platforms,
+            Web Applications, Mobile Applications, Operational Dashboards, and Design
+            Systems, helping organizations simplify complex workflows and improve
+            business productivity.
           </p>
           </div>
 

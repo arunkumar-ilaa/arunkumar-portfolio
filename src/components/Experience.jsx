@@ -5,28 +5,29 @@ import SectionWrapper from "./SectionWrapper";
 const experiences = [
 {
 period: "Dec 2022 - Present",
-role: "Senior UX/UI Designer",
-company: "Maxbyte Technologies",
+role: "UX/UI Designer",
+company: "Maxbyte Technologies • Coimbatore",
 description:
-"Leading UX/UI design for Enterprise SaaS platforms, Manufacturing Execution Systems (MES), Industrial IoT solutions, and Factory Operations Dashboards. Collaborating with Product Managers, Business Analysts, and Engineering teams to transform complex manufacturing workflows into intuitive, scalable, and data-driven digital products for global organizations.",
+"Designed 200+ production-ready UI screens across Enterprise SaaS products, Web Applications, Mobile Applications, Operational Dashboards, and Factory TV interfaces. Collaborated with Product Managers, Business Analysts, QA engineers, and developers throughout the UX lifecycle—from workflow analysis and wireframes to interactive prototypes, high-fidelity UI, design systems, and developer handoff.",
 highlights: [
-  "Enterprise SaaS",
-  "MES",
-  "Industrial IoT",
-  "NBC",
-  "Welspun",
-  "Blue Star",
-  "Design Systems",
-  "Factory Dashboards",
+"Enterprise SaaS",
+"200+ UI Screens",
+"Dashboard Design",
+"Web Applications",
+"Mobile Applications",
+"Design Systems",
+"NBC",
+"Welspun",
+"Blue Star"
 ],
 },
 
 {
 period: "Jun 2022 - Dec 2022",
-role: "UI/UX Designer",
-company: "Deziner's Knot",
+role: "Junior Executive",
+company: "Deziner's Knot Pvt Ltd • Tiruppur",
 description:
-"Designed responsive websites and mobile applications, creating wireframes, user flows, prototypes, and high-fidelity interfaces across multiple client projects.",
+"Worked on responsive web and mobile application interfaces using Figma. Created wireframes, UI mockups, and interactive prototypes while collaborating with developers to deliver intuitive digital experiences.",
 highlights: [
 "Wireframes",
 "Prototypes",
@@ -37,15 +38,15 @@ highlights: [
 
 {
 period: "Mar 2017 - May 2022",
-role: "Web Designer",
-company: "The Chennai Silks",
+role: "Operator",
+company: "The Chennai Silks • Tiruppur",
 description:
-"Designed e-commerce experiences, campaign landing pages, promotional creatives, and responsive interfaces that supported online customer engagement and digital commerce initiatives.",
+"Supported e-commerce website maintenance by designing promotional creatives, responsive landing pages, digital campaign assets, and HTML/CSS pages for marketing initiatives.",
 highlights: [
 "E-Commerce",
-"Magento",
+"HTMl/CSS",
 "Landing Pages",
-"Responsive Design",
+"Digital campaigns",
 ],
 },
 ];
@@ -59,13 +60,11 @@ return ( <SectionWrapper> <section id="experience" className="py-32"> <div class
         </p>
 
         <h2 className="text-5xl font-bold mt-3">
-          Professional Journey
+          Relevant Experience
         </h2>
         <div className="mt-4 w-16 h-[2px] bg-violet-500 rounded-full" />
         <p className="text-slate-400 mt-5 max-w-3xl text-lg leading-8">
-  Over 8 years of design experience spanning enterprise software,
-  manufacturing platforms, operational dashboards, industrial applications,
-  and digital commerce solutions.
+        UX/UI Designer with 3.5+ years of relevant experience designing Enterprise SaaS products, Web Applications, Mobile Applications, Operational Dashboards, and Design Systems. Previous experience in digital commerce strengthened my visual design expertise and front-end collaboration skills.
 </p>
       </div>
 
@@ -159,7 +158,7 @@ return ( <SectionWrapper> <section id="experience" className="py-32"> <div class
                       border-violet-500/20
                       "
                     >
-                      Current Role
+                     Present
                     </span>
                   )}
 
