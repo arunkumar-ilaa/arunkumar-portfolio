@@ -89,6 +89,7 @@ export default function Hero() {
                 "Blue Star",
                 "Axium",
                 "Byte Factory",
+                "GE Aerospace",
                 "BFAL"
                 
               ].map((client) => (
