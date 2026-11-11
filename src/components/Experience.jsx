@@ -27,9 +27,10 @@ period: "Jun 2022 - Dec 2022",
 role: "Junior Executive",
 company: "Deziner's Knot Pvt Ltd • Tiruppur",
 description:
-"Worked on responsive web and mobile application interfaces using Figma. Created wireframes, UI mockups, and interactive prototypes while collaborating with developers to deliver intuitive digital experiences.",
+"Worked on website maintenance, e-commerce updates, UI improvements, UI/UX concept exploration, Figma wireframes and interactive prototypes for web and mobile applications, along with social media creatives and promotional designs.",
 highlights: [
-"Wireframes",
+  "E-Commerce",
+"Figma",
 "Prototypes",
 "Mobile Apps",
 "Web Applications",
