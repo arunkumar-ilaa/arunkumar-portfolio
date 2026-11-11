@@ -110,7 +110,7 @@ export default function Hero() {
               className="flex items-center gap-2 px-6 py-3 rounded-xl bg-violet-600 hover:bg-violet-700 transition"
             >
               Explore Case Studies →
-              <ArrowRight size={18} />
+             
             </a>
 
             <a
